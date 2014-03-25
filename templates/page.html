@@ -1,0 +1,18 @@
+<div class="container">
+  <label for="inputSetTitle">Search</label>
+  <input type="search" name="search" class="form-control" placeholder="Enter keyword" ng-model="query">
+</div>
+    
+<div>
+  <ul>
+    <li ng-repeat="photoset in photosets | filter:query">
+      {{photoset.title._content}}
+      <p>{{photoset.description._content}}</p>
+      <p>{{photoset.photos}} photos</p>
+      <p><a href="#/photoset/{{photoset.id}}">{{photoset.id}}</a></p>
+      <span>{{ photoset.date_create * 1000 | date: 'MMM dd, yyyy' }}<br /></span>
+      <div style="background-image: url(https://farm{{photoset.farm}}.staticflickr.com/{{photoset.server}}/{{photoset.primary}}_{{photoset.secret}}_q.jpg); width:150px; height:150px; background-position: center; background-repeat: no-repeat; background-size: cover; "</div>
+          
+    </li>
+  </ul>
+</div>

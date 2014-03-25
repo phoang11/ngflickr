@@ -1,0 +1,13 @@
+
+<div id="links" class="links">
+  <a ng-repeat="photo in photos" href="//farm{{photo.farm}}.staticflickr.com/{{photo.server}}/{{photo.id}}_{{photo.secret}}_b.jpg" title="{{photo.title}}" data-gallery="">
+    <img alt="{{photo.title}}" src="//farm{{photo.farm}}.staticflickr.com/{{photo.server}}/{{photo.id}}_{{photo.secret}}_s.jpg">
+  </a>
+</div>
+
+
+<!--    
+  <a href="//farm{{photo.farm}}.staticflickr.com/{{photo.server}}/{{photo.id}}_{{photo.secret}}_b.jpg" title="{{photo.title}}" ng-repeat="photo in photos"><img alt="{{photo.title}}" src="//farm{{photo.farm}}.staticflickr.com/{{photo.server}}/{{photo.id}}_{{photo.secret}}_s.jpg"></a>
+
+<div style="background-image: url(https://farm{{photo.farm}}.staticflickr.com/{{photo.server}}/{{photo.id}}_{{photo.secret}}_s.jpg); width:75px; height:75px; background-position: center; background-repeat: no-repeat; background-size: cover; "</div> -->
+
