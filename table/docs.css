@@ -3,11 +3,9 @@
  */
 
 body {
-  font: 10px Arial, Helvetica, sans-serif;
+  font: 9px Arial, Helvetica, sans-serif;
   line-height: normal; 
 }
-
-
 
 h1 {
   font-size: 16px;
@@ -20,14 +18,13 @@ h1 {
   display: inline-block;
 }
 
-
 /* Make it red for easy views */
 .grid-example {
  
 }
 .grid-example .col {
   padding-top: 5px;
-  padding-bottom: 5px;
+  
   padding-left: 5px;
   background-color: rgba(255,0,0,.15);
 }
@@ -42,7 +39,7 @@ h1 {
 }
 
 .col-border {
-  border: solid 1px #3C3C3C;
+  border: 1px solid #5C5C5C;
 }
 
 .col-no-border-left {
@@ -64,16 +61,64 @@ h1 {
   padding-left:0;
 }
 
+.margin-bottom-5 {
+  margin-bottom: 5px;
+}
+.margin-left-5 {
+  margin-left: 5px;
+}
+.margin-left-10 {
+  margin-left: 10px;
+}
+.margin-left-15{
+  margin-left: 15px;
+}
 .app-title { 
   font-size: 18px;
-  font-weight: bold;
-  letter-spacing: 1px;
+  font-weight: bold;  
 }
+
 .app-question{
-  text-transform: uppercase;
-  margin-bottom:5px;
+  margin-bottom: 4px;
 }
 
 .app-content {
+  margin-bottom: 3px;
+}
 
+.app-fed-agency {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.box {
+  border: 1px solid #5C5C5C;
+}
+
+.checked-box {
+  border: 1px solid #5C5C5C;
+  display:inline-block;
+  padding-left:3px;
+  width:10px;
+  height:10px;
+  margin-right:5px;
+}
+.empty-box {
+  border: 1px solid #5C5C5C;
+  display:inline-block;
+  padding-left:3px;
+  width:10px;
+  height:10px;
+  margin-right:5px;
+}
+
+.money {
+  display: inline-block;
+  text-align: right;
+  width: 65px;
+}
+
+.box-width{
+  display: inline-block;
+  width: 145px;
 }
