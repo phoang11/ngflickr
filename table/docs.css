@@ -1,5 +1,5 @@
 /*
- * Styles for the Table Grid docs.
+ * Styles for the Form424.
  */
 
 body {
@@ -26,10 +26,10 @@ h1 {
   padding-top: 5px;
   
   padding-left: 5px;
-  background-color: rgba(255,0,0,.15);
+ /* background-color: rgba(255,0,0,.15); */
 }
 .grid-example .col:nth-child(odd) {
-  background-color: rgba(255,0,0,.3);
+  /* background-color: rgba(255,0,0,.3); */
 }
 
 /* Nested grid examples need outdenting because padding. */
