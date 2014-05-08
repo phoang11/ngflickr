@@ -1,0 +1,124 @@
+/*
+  Forces backgrounds to span full width,
+  even if there is horizontal scrolling.
+  Increase this if your layout is wider.
+
+  Note: IE6 works fine without this fix.
+*/
+
+body {
+  min-width: 960px;
+}
+
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+.container_12 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+  display:inline;
+  float: left;
+  position: relative;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+/* Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container_12 .grid_1 {
+  width:80px;
+}
+
+.container_12 .grid_2 {
+  width:160px;
+}
+
+.container_12 .grid_3 {
+  width:240px;
+}
+
+.container_12 .grid_4 {
+  width:320px;
+}
+
+.container_12 .grid_5 {
+  width:400px;
+}
+
+.container_12 .grid_6 {
+  width:480px;
+}
+
+.container_12 .grid_7 {
+  width:560px;
+}
+
+.container_12 .grid_8 {
+  width:640px;
+}
+
+.container_12 .grid_9 {
+  width:720px;
+}
+
+.container_12 .grid_10 {
+  width:800px;
+}
+
+.container_12 .grid_11 {
+  width:880px;
+}
+
+.container_12 .grid_12 {
+  width:960px;
+}
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before,
+.clearfix:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
