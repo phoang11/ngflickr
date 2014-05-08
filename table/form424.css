@@ -1,0 +1,188 @@
+/*
+ * Styles for the.
+ */
+
+
+body {
+  font: 12px Arial, Helvetica, sans-serif;
+  line-height: normal;
+  margin: 8px;
+}
+
+h1 {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom:0;
+}
+
+.app-title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.app-fed-agency {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.tb-cell{
+ display:table-cell;
+ float:none;
+ border: 1px solid;
+}
+
+.cell-content{
+  margin:  5px;
+}
+
+.no-border-top {
+  border-top: none;
+}
+.no-border-bottom {
+  border-bottom: none;
+}
+.no-border-left {
+  border-left: none;
+}
+.no-border-right {
+  border-right: none;
+}
+
+.margin-left-15{
+  margin-left: 15px;
+}
+.margin-bottom-5{
+  margin-bottom: 5px;
+}
+
+/* Question 3 & 4 */
+#rowq-3-4{
+  height:95px;
+}
+
+#rowq-3-4 #cell-3a,
+#rowq-3-4 #cell-3b,
+#rowq-3-4 #cell-4a,
+#rowq-3-4 #cell-4b{
+  height:46px;
+  border-bottom: 1px solid;
+}
+
+#rowq-3-4 #cell-3b{
+  position: relative;
+  left: 320px;
+  top: -52px;
+}
+
+#rowq-3-4 #cell-4a{
+  position: relative;
+  top: -53px;
+  border-bottom:none;
+}
+
+#rowq-3-4 #cell-4b{
+  position: relative;
+  left: 320px;
+  top: -105px;
+  border-bottom:none;
+}
+
+/* Question 5a */
+#rowq-5a{
+  border-bottom: 1px solid;
+}
+
+/* Question 6 7 8 9 */
+#rowq-6-7-8-9{
+  height: 240px;
+}
+
+#rowq-6-7-8-9 #cell-6{
+  border-bottom: 1px solid;
+}
+
+#rowq-6-7-8-9 #cell-7{
+  position:relative;
+  left: 480px;
+  top: -42px;
+}
+
+#rowq-6-7-8-9 #cell-8{
+  position:relative;
+  top: -54px;
+}
+
+#rowq-6-7-8-9 #cell-9{
+  position:relative;
+  left: 480px;
+  top: -45px;
+  border-top: 1px solid;
+}
+
+/* Question 10 11 12 */
+#rowq-10-11-12{
+  height: 130px;
+}
+
+#rowq-10-11-12 #cell-10{
+  border-bottom: 1px solid;
+}
+
+#rowq-10-11-12 #cell-11{
+  position:relative;
+  left: 480px;
+  top: -42px;
+}
+
+#rowq-10-11-12 #cell-12{
+  position:relative;
+  top: -55px;
+}
+
+/* Question 15 */
+#cell-15 .grid_3 {
+  width:239px;
+}
+
+.box {
+  border: 1px solid #5C5C5C;
+}
+.checked-box {
+  border: 1px solid #5C5C5C;
+  display:inline-block;
+  padding-left:3px;
+  padding-bottom: 3px;
+  width:10px;
+  height:10px;
+  margin-right:5px;
+}
+.empty-box {
+  border: 1px solid #5C5C5C;
+  display:inline-block;
+  padding-left:3px;
+  padding-bottom: 3px;
+  width:10px;
+  height:10px;
+  margin-right:5px;
+}
+.box-width{
+  display: inline-block;
+  width: 180px;
+}
+
+.padd{
+  padding-left: 25px;
+  text-indent: -25px;
+}
+
+#cell-16{
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.funding-amount{
+  display: inline-block;
+  text-align: right;
+  width: 90px;
+}
